@@ -1,2 +1,2 @@
 # portfolio
- Este é o modelo de portfolio para apresentação de serviços
+ Este é o modelo de portfólio para apresentação de serviços, desenvolvido em HTML, CSS e JAVASCRIPTS
