@@ -9,6 +9,9 @@
     --MyBlueCollor: #7ED0D9;
     --MyGreenCollor: #03A696;
     --MyBeigeCollor: #D99962;
+    --MyCollorWrite: #ffffff;
+
+
 
     /*Fontes*/
     --FontTitle: 'Poppins', 'Lato';
@@ -44,6 +47,23 @@
     display: flex;
     font-size: 10px;
     padding-left: 2%;
+}
+
+.bannerPrincipal {
+    height: 90vh;
+    width: 100%;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.conteudoPrincipal {
+    width: 50%;
+    padding: 10% 0 0 15vh;
+    color: var(--MyCollorWrite);
+}
+
+.conteudoPrincipal h1 {
+    font-size: 48px;
 }
 
 /*Definindo Layout Grid*/
