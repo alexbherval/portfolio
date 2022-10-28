@@ -1,0 +1,142 @@
+/*Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Lato:ital,wght@0,900;1,300;1,400;1,900&family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;0,900;1,100&family=Open+Sans:ital,wght@0,400;1,300;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,200;0,400;0,600;0,700;0,900;1,200;1,400;1,500;1,900&display=swap');
+
+/*Definição variáveis do site*/
+:root {
+    /*Cores*/
+    --MyPrimaryCollor: #013A40;
+    --MySecundaryCollor: #037F8C;
+    --MyBlueCollor: #7ED0D9;
+    --MyGreenCollor: #03A696;
+    --MyBeigeCollor: #D99962;
+    --MyCollorWrite: #ffffff;
+
+
+
+    /*Fontes*/
+    --FontTitle: 'Poppins', 'Lato';
+}
+
+/*Reset de Estilos*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', 'Lato';
+}
+
+/*Envclo do site*/
+body .container.page{
+    height: 100vh;
+    width: 100%;
+    /*Permite colocar elementos aninhasdos na mesma linha*/
+    display: flex;
+    /*Permite a quebra de linha quando não cabe no container*/
+    flex-wrap: wrap;
+}
+.navSite {
+    width: 100%;
+}
+
+.bannerPromo{
+    width: 100%;
+    height: 60vh;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+
+}
+
+.bannerPromo .assistencia{
+    width: 40%;
+    height: 40vh;
+    padding-left: 7%;
+    color: var(--MyGreenCollor);
+
+}
+
+.bannerPromo .assistencia h1{
+   font-size: 36px;
+}
+
+.bannerPromo .assistencia header{
+    padding-top: 80px;
+}
+
+.bannerPromo .assistencia p{
+    padding-bottom: 2%;
+}
+
+button {
+    background-color: var(--MyPrimaryCollor);
+    color: var(--MyCollorWrite);
+    width: 25%;
+    height: 5vh;
+    border-radius: 5%;
+        
+}
+
+.sercicos{
+    padding-top: 4%;
+    width: 100%;
+    height: 14vh;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.sercicos p {
+   padding: 1%;
+}
+
+.sercicos header h1 {
+    font-size: 36px;
+ }
+
+.personalCard{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 6% 0 1% 0;
+}
+
+.personalCard article {
+    width: 20%;
+    font-size: 14px;
+    font-weight: 350;
+    padding: 1%;    
+}
+.personalCard article header h2 {
+    font-weight: 500;
+}
+
+.expertise {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.expertise article {
+    width: 40%;
+    font-size: 14px;
+    font-weight: 350;
+    padding: 2%;  
+}
+
+
+.expertise img {
+    height: 35%;
+    padding-top: 3%;
+}
+
+.expertise article header h2 {
+    font-size: 36px;
+    padding-bottom: 1%;
+}
